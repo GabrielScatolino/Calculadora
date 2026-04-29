@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="CSS/JS/style.css">
+    <script src="CSS/JS/script.js"></script>
+</head>
+
+<body>
+    <section>
+        <h1>Calculadora</h1> 
+        <section>
+            <!-- VIEW  -->
+            <div id="display"></div>
+        </section>
+        <section class="buttons">
+            <!-- CALCULATOR BUTTONS  -->
+            <!-- NUMBERS -->
+            <div id="b_numbers">
+                <button onclick="appendCal('1')">1</button>
+                <button onclick="appendCal('2')">2</button>
+                <button onclick="appendCal('3')">3</button>
+                <button onclick="appendCal('4')">4</button>
+                <button onclick="appendCal('5')">5</button>
+                <button onclick="appendCal('6')">6</button>
+                <button onclick="appendCal('7')">7</button>
+                <button onclick="appendCal('8')">8</button>
+                <button onclick="appendCal('9')">9</button>
+                <button onclick="appendCal('0')">0</button>
+            </div>
+
+            <!-- SIGNS -->
+            <div id="b_signs">
+                <button onclick="appendCal('.')">.</button>
+                <button onclick="appendCal('%')">%</button> <!-- ?? -->
+                <button onclick="appendCal('+')">+</button>
+                <button onclick="appendCal('-')">-</button>
+                <button onclick="appendCal('*')">*</button>
+                <button onclick="appendCal('/')">/</button>
+                <button onclick="appendCal('(')">(</button>
+                <button onclick="appendCal(')')">)</button>
+                <button onclick="appendCal('√')">√</button> <!-- ?? -->
+                <button onclick="appendCal('')">x²</button> <!-- ?? -->
+                <button onclick="calculate()">=</button>
+            </div>
+
+            <!-- OPTIONS -->
+            <div id="b_options">
+                <button onclick="">APAGAR</button> <!-- ?? -->
+                <button onclick="">VOLTAR</button> <!-- ?? -->
+                <button onclick="clearCal()">C</button>
+            </div>
+        </section>
+</body>
+
+</html>
