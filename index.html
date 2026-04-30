@@ -9,49 +9,44 @@
 
 <body>
     <section>
-        <h1>Calculadora</h1> 
+        <h1>Calculadora</h1>
         <section>
-            <!-- VIEW  -->
-            <div id="display"></div>
-        </section>
-        <section class="buttons">
-            <!-- CALCULATOR BUTTONS  -->
-            <!-- NUMBERS -->
-            <div id="b_numbers">
-                <button onclick="appendCal('1')">1</button>
-                <button onclick="appendCal('2')">2</button>
-                <button onclick="appendCal('3')">3</button>
-                <button onclick="appendCal('4')">4</button>
-                <button onclick="appendCal('5')">5</button>
-                <button onclick="appendCal('6')">6</button>
-                <button onclick="appendCal('7')">7</button>
-                <button onclick="appendCal('8')">8</button>
-                <button onclick="appendCal('9')">9</button>
-                <button onclick="appendCal('0')">0</button>
+            <div class="calc">
+                <div class="display-wrap">
+                    <div class="display-expr" id="expr"></div>
+                    <div class="display-main" id="display">0</div>
+                </div>
+                <div class="grid">
+                    <button class="btn btn-clear" onclick="clearCal()">C</button>
+                    <button class="btn btn-fn" onclick="toggleSign()">+/-</button>
+                    <button class="btn btn-fn" onclick="applyPercent()">%</button>
+                    <button class="btn btn-op" onclick="pressOp('/')">÷</button>
+
+                    <button class="btn btn-num" onclick="pressNum('7')">7</button>
+                    <button class="btn btn-num" onclick="pressNum('8')">8</button>
+                    <button class="btn btn-num" onclick="pressNum('9')">9</button>
+                    <button class="btn btn-op" onclick="pressOp('*')">×</button>
+
+                    <button class="btn btn-num" onclick="pressNum('4')">4</button>
+                    <button class="btn btn-num" onclick="pressNum('5')">5</button>
+                    <button class="btn btn-num" onclick="pressNum('6')">6</button>
+                    <button class="btn btn-op" onclick="pressOp('-')">−</button>
+
+                    <button class="btn btn-num" onclick="pressNum('1')">1</button>
+                    <button class="btn btn-num" onclick="pressNum('2')">2</button>
+                    <button class="btn btn-num" onclick="pressNum('3')">3</button>
+                    <button class="btn btn-op" onclick="pressOp('+')">+</button>
+
+                    <button class="btn btn-fn" onclick="pressSqrt()">√</button>
+                    <button class="btn btn-num" onclick="pressNum('0')">0</button>
+                    <button class="btn btn-num" onclick="pressDot()">.</button>
+                    <button class="btn btn-eq" onclick="calculate()">=</button>
+
+                    <button class="btn btn-fn  btn-span2" onclick="pressSquare()">x²</button>
+                    <button class="btn btn-del btn-span2" onclick="deleteLast()">⌫ Apagar</button>
+                </div>
             </div>
 
-            <!-- SIGNS -->
-            <div id="b_signs">
-                <button onclick="appendCal('.')">.</button>
-                <button onclick="appendCal('%')">%</button> <!-- ?? -->
-                <button onclick="appendCal('+')">+</button>
-                <button onclick="appendCal('-')">-</button>
-                <button onclick="appendCal('*')">*</button>
-                <button onclick="appendCal('/')">/</button>
-                <button onclick="appendCal('(')">(</button>
-                <button onclick="appendCal(')')">)</button>
-                <button onclick="appendCal('√')">√</button> <!-- ?? -->
-                <button onclick="appendCal('')">x²</button> <!-- ?? -->
-                <button onclick="calculate()">=</button>
-            </div>
-
-            <!-- OPTIONS -->
-            <div id="b_options">
-                <button onclick="">APAGAR</button> <!-- ?? -->
-                <button onclick="">VOLTAR</button> <!-- ?? -->
-                <button onclick="clearCal()">C</button>
-            </div>
-        </section>
 </body>
 
 </html>
