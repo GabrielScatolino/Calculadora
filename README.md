@@ -1,37 +1,13 @@
-🧮 Calculadora Web:
-Este projeto consiste em uma calculadora simples desenvolvida em HTML, CSS e JavaScript, criada como parte de um trabalho acadêmico da faculdade.
+🧮 Web Calculator: This project consists of a simple calculator developed using HTML, CSS, and JavaScript, created as part of a college academic assignment.
 
-📌 Objetivo:
-O objetivo deste projeto é aplicar conceitos básicos de desenvolvimento web, como:
-Estruturação de páginas com HTML;
-Estilização com CSS;
-Lógica de programação com JavaScript;
-Manipulação de eventos e interações com o usuário.
+📌 Objective: The purpose of this project is to apply basic web development concepts, such as: Page structuring with HTML; Styling with CSS; Programming logic with JavaScript; Event handling and user interaction.
 
-⚙️ Funcionalidades:
-A calculadora possui as seguintes funcionalidades:
-Operações básicas: adição, subtração, multiplicação e divisão;
-Cálculo de porcentagem (%);
-Raiz quadrada;
-Potenciação (elevado);
-Uso de parênteses ( ) para expressões mais complexas;
-Interface simples e intuitiva.
+⚙️ Features: The calculator includes the following functionalities: Basic operations: addition, subtraction, multiplication, and division; Percentage calculation (%); Square root; Exponentiation (power); Use of parentheses ( ) for more complex expressions; Simple and intuitive interface.
 
-🖥️ Tecnologias Utilizadas:
-HTML5;
-CSS3;
-JavaScript.
+🖥️ Technologies Used: HTML5; CSS3; JavaScript.
 
-🚀 Como usar:
-Clone ou baixe este repositório;
-Abra o arquivo index.html em seu navegador;
-Utilize a calculadora diretamente na interface.
+🚀 How to Use: Clone or download this repository; Open the index.html file in your browser; Use the calculator directly through the interface.
 
-🎯 Status do Projeto:
-🚧 Em desenvolvimento!!!
-Novas funcionalidades e melhorias podem ser adicionadas futuramente.
+🎯 Project Status: 🚧 In development!!! New features and improvements may be added in the future.
 
-👨‍💻 Autor:
-Desenvolvido por Gabriel Scatolino
-👉 Para mais projetos, acesse:
-https://github.com/GabrielScatolino
+👨‍💻 Author: Developed by Gabriel Scatolino 👉 For more projects, visit: https://github.com/GabrielScatolino
